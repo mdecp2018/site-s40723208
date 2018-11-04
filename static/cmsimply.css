@@ -1,9 +1,13 @@
 .container {
   position: relative;
+  background-image: url("http://i.imgur.com/CISKhxk.jpg"); 
+  background-size: 120%;width: 1500px;
+    height: 1010px;
 }
 header{
-  background: #ccc;
-  padding: 20px;
+  background-image: url("https://i.imgur.com/7loHvSo.png"); 
+  padding: 40px;
+  color: #16d2dc
 }
 confmenu
 {
