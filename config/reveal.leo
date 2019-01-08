@@ -9,34 +9,44 @@
 <preferences/>
 <find_panel_settings/>
 <vnodes>
-<v t="leo.20180827201556.1"><vh>@settings</vh>
-<v t="leo.20180827201556.2"><vh>@data qt-gui-plugin-style-sheet</vh></v>
-<v t="leo.20180827201556.3"><vh>@string initial_split_orientation = horizontal</vh></v>
+<v t="leo.20190108195055.1"><vh>@settings</vh>
+<v t="leo.20190108195055.2"><vh>@data qt-gui-plugin-style-sheet</vh></v>
+<v t="leo.20190108195055.3"><vh>@string initial_split_orientation = horizontal</vh></v>
 </v>
-<v t="leo.20180827201621.1" a="E"><vh>編輯 reveal</vh>
-<v t="leo.20180827201621.2" a="E"><vh>@path ./../reveal</vh>
-<v t="leo.20180827201621.3" a="E"><vh>@clean index.html</vh>
-<v t="leo.20180827201621.4" a="E"><vh>html</vh>
-<v t="leo.20180827201621.5"><vh>head</vh></v>
-<v t="leo.20180827201621.6" a="E"><vh>body</vh>
-<v t="leo.20180827201621.7" a="E"><vh>reveal div</vh>
-<v t="leo.20180827201621.8" a="E"><vh>slides div</vh>
-<v t="leo.20180827201621.9" a="E"><vh>封面投影片</vh>
-<v t="leo.20180827201621.10"><vh>封面投影片內容</vh></v>
+<v t="leo.20190108195102.1" a="E"><vh>編輯 reveal</vh>
+<v t="leo.20190108195102.2" a="E"><vh>@path ./../reveal</vh>
+<v t="leo.20190108195102.3" a="E"><vh>@clean index.html</vh>
+<v t="leo.20190108195102.4" a="E"><vh>html</vh>
+<v t="leo.20190108195102.5"><vh>head</vh></v>
+<v t="leo.20190108195102.6" a="E"><vh>body</vh>
+<v t="leo.20190108195102.7" a="E"><vh>reveal div</vh>
+<v t="leo.20190108195102.8" a="E"><vh>slides div</vh>
+<v t="leo.20190108195102.11" a="E"><vh>投影片-1</vh>
+<v t="leo.20190108195102.12"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20180827201621.11" a="E"><vh>快捷鍵</vh>
-<v t="leo.20180827201621.12"><vh>投影片快捷鍵</vh></v>
+<v t="leo.20190108195102.31" a="E"><vh>week10</vh>
+<v t="leo.20190108195102.32"><vh>10</vh></v>
 </v>
-<v t="leo.20180827201621.13"><vh>各式內容引用範例</vh>
-<v t="leo.20180827201621.14" a="E"><vh>導入數學符號與方程式</vh>
-<v t="leo.20180827201621.15"><vh>LaTeX 格式方程式</vh></v>
+<v t="leo.20190108195102.33" a="E"><vh>week11</vh>
+<v t="leo.20190108195102.34"><vh>11</vh></v>
 </v>
-<v t="leo.20180827201621.16" a="E"><vh>導入縮排程式碼</vh>
-<v t="leo.20180827201621.17"><vh>引用程式碼</vh></v>
+<v t="leo.20190108195102.35" a="E"><vh>week12</vh>
+<v t="leo.20190108195102.36"><vh>12</vh></v>
 </v>
-<v t="leo.20180827201621.18" a="E"><vh>導入影片</vh>
-<v t="leo.20180827201621.19"><vh>iframe 導入影片</vh></v>
+<v t="leo.20190108195102.37" a="E"><vh>week13</vh>
+<v t="leo.20190108195102.38"><vh>13</vh></v>
 </v>
+<v t="leo.20190108195102.39" a="E"><vh>week14</vh>
+<v t="leo.20190108195102.40"><vh>14</vh></v>
+</v>
+<v t="leo.20190108195102.41" a="E"><vh>week15</vh>
+<v t="leo.20190108195102.42"><vh>15</vh></v>
+</v>
+<v t="leo.20190108195102.43" a="E"><vh>week16</vh>
+<v t="leo.20190108195102.44"><vh>16</vh></v>
+</v>
+<v t="leo.20190108195102.45" a="E"><vh>week17</vh>
+<v t="leo.20190108195102.46"><vh>17</vh></v>
 </v>
 </v>
 </v>
@@ -47,8 +57,8 @@
 </v>
 </vnodes>
 <tnodes>
-<t tx="leo.20180827201556.1"></t>
-<t tx="leo.20180827201556.2">QTreeWidget {
+<t tx="leo.20190108195055.1"></t>
+<t tx="leo.20190108195055.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
     background-color: #ffffec; /* Leo's traditional tree color */
     selection-color: black; /* was white */
@@ -121,129 +131,195 @@ QLineEdit#editorLabel {
     border: 2px;
     margin: 2px;
 }</t>
-<t tx="leo.20180827201556.3">horizontal: body pane to the left
+<t tx="leo.20190108195055.3">horizontal: body pane to the left
 vertical: body pane on the botton</t>
-<t tx="leo.20180827201621.1"></t>
-<t tx="leo.20180827201621.10">## 簡報
+<t tx="leo.20190108195102.1"></t>
+<t tx="leo.20190108195102.11">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190108195102.12">## 2018Fall 40723208期末簡報
 
 ### 虎科大機械設計工程系
+
+*[CMSimfly](https://chiamingyen.github.io/cmsimfly/content/index.html) 操作
+*[Onshape](https://www.onshape.com/) 操作
 
 &lt;small&gt;
 Created by [KMOLab](http://lab.kmol.info/)
 &lt;/small&gt;
 
-[2018 Fall 分組網誌](./../blog/index.html)
 
 
-</t>
-<t tx="leo.20180827201621.11">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
 
-
-						
-</t>
-<t tx="leo.20180827201621.12"># 投影片快捷鍵
-
-* 利用箭頭上下前後換頁
-* 按 f 鍵進入全螢幕模式 (full screen)
-* 按 s 鍵可以顯示投影片筆記 (show)
-* 按 o 鍵可以切換單張或全域檢視 (overview)
-* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
-* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
+#### 簡報製作人:吳烜安
 
 </t>
-<t tx="leo.20180827201621.13">&lt;section&gt;
-@others
-&lt;/section&gt;
-
-</t>
-<t tx="leo.20180827201621.14">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-</t>
-<t tx="leo.20180827201621.15"># 數學符號與方程式
-
-Inline math equations go in like so: $\omega = d\phi / dt$. Display
-math should get its own line and be put in in double-dollarsigns:
-
-$$I = \int \rho R^{2} dV$$
-</t>
-<t tx="leo.20180827201621.16">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-</t>
-<t tx="leo.20180827201621.17">## 利用 Markdown 寫投影片
-以下利用 Markdown 格式展示 Python 程式碼:
-```
-@language python
-# use threading and subprocess to threading the make process
-import os
-import subprocess
-import threading
-
-def domake():
-    
-    path = "../exposed/api/exposed"
-    ubuntu = "../Ubuntu"
-    
-    # create obj path
-    
-    if not os.path.exists(path+"/../obj"):
-        os.makedirs(path+"/../obj")
-    
-    subprocess.call(["make", "clean"], cwd=path)
-    subprocess.call("make", cwd=path)
-    subprocess.call(["cp", "{libslvs.so, _slvs.so, slvs.py}", ubuntu], cwd=path)
-    subprocess.call(["python3", "circle_ex.py"], cwd=path+"/"+ubuntu)
-    
-make = threading.Thread(target=domake)
-make.start()
-```
-</t>
-<t tx="leo.20180827201621.18">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20180827201621.19">## 使用 iframe 導入影片
-
-### 導入影片 template
-
-&lt;iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-</t>
-<t tx="leo.20180827201621.2"></t>
-<t tx="leo.20180827201621.3">@language xml
+<t tx="leo.20190108195102.2"></t>
+<t tx="leo.20190108195102.3">@language xml
 @tabwidth -4
 @others
 
 </t>
-<t tx="leo.20180827201621.4">&lt;!doctype html&gt;
+<t tx="leo.20190108195102.31">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+
+</t>
+<t tx="leo.20190108195102.32"># week10
+
+#### 這周學長教我們的是，怎麼開啟eric6，並且教我們運用裡面的模組來創建一個頁面，這次學長教我們如何讓拉桿(slider)跟進度條(progress bar)連動，還有如何用按鈕(buttom)來叫出自己想要顯示的字跟顯示次數，動手做完這些，我覺得很有趣。
+
+
+
+						
+</t>
+<t tx="leo.20190108195102.33">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+
+</t>
+<t tx="leo.20190108195102.34"># week11
+
+#### 這禮拜老師教我們用heroku來同步github上倉儲。
+
+
+
+						
+</t>
+<t tx="leo.20190108195102.35">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+
+</t>
+<t tx="leo.20190108195102.36"># week12
+
+#### 這週由組長建立一個heroku新的帳號，組長再把組員們拉進去，發現heroku是一個備份用的倉儲。
+
+
+
+						
+</t>
+<t tx="leo.20190108195102.37">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+
+</t>
+<t tx="leo.20190108195102.38"># week13
+
+#### 這個禮拜一開始先介紹了leo-editor的基本操作，之後老師介紹了一個由brython寫的小遊戲。
+
+
+
+						
+</t>
+<t tx="leo.20190108195102.39">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+
+
+</t>
+<t tx="leo.20190108195102.4">&lt;!doctype html&gt;
 &lt;html lang="en"&gt;
 @others
 &lt;/html&gt;
 </t>
-<t tx="leo.20180827201621.5">&lt;head&gt;
+<t tx="leo.20190108195102.40"># week14
+
+#### 這個禮拜一開始先介紹了leo-editor的基本操作，之後老師介紹了一個由brython寫的小遊戲。
+
+
+						
+</t>
+<t tx="leo.20190108195102.41">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+
+
+
+</t>
+<t tx="leo.20190108195102.42"># week15
+
+#### 這周開始準備期末報告，老師教我們如何用leo-editor協同編輯報告，而要我們去看大二學長姐們上課的講解影片，然後我們再將老師給的要報告的資料載進倉儲
+
+
+
+						
+</t>
+<t tx="leo.20190108195102.43">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+
+
+
+</t>
+<t tx="leo.20190108195102.44"># week16
+
+#### 這周老師把期末報告要繳的東西跟我們說，個人期末報告影片要3分鐘內還有分組期末專題
+
+
+						
+</t>
+<t tx="leo.20190108195102.45">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+
+
+
+</t>
+<t tx="leo.20190108195102.46"># week17
+
+#### 因為調課的關係，這週分成3天上課，這3天都是學長來教我們python的程式和語法。
+
+
+						
+</t>
+<t tx="leo.20190108195102.5">&lt;head&gt;
     &lt;meta charset="utf-8"&gt;
 &lt;title&gt;
 2018 Fall 分組網際簡報
@@ -277,7 +353,7 @@ make.start()
 &lt;/head&gt;
 
 </t>
-<t tx="leo.20180827201621.6">&lt;body&gt;
+<t tx="leo.20190108195102.6">&lt;body&gt;
 @others
 &lt;script src="lib/js/head.min.js"&gt;&lt;/script&gt;
 &lt;script src="js/reveal.js"&gt;&lt;/script&gt;
@@ -306,25 +382,16 @@ make.start()
 &lt;/body&gt;
 
 </t>
-<t tx="leo.20180827201621.7">&lt;div class="reveal"&gt;
+<t tx="leo.20190108195102.7">&lt;div class="reveal"&gt;
 @others
 &lt;/div&gt;
 
 </t>
-<t tx="leo.20180827201621.8">&lt;!-- Any section element inside of this container is displayed as a slide --&gt;
+<t tx="leo.20190108195102.8">&lt;!-- Any section element inside of this container is displayed as a slide --&gt;
 &lt;div class="slides"&gt;
 @others
 &lt;/div&gt;
 
-</t>
-<t tx="leo.20180827201621.9">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
 </t>
 </tnodes>
 </leo_file>
